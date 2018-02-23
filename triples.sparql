@@ -4,7 +4,7 @@
 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
 PREFIX wikibase: <http://wikiba.se/ontology#>
 PREFIX bd: <http://www.bigdata.com/rdf#>
-
+PREFIX wd: <http://www.wikidata.org/entity/>
 
 #Cats
 SELECT ?item ?itemLabel 
