@@ -1,0 +1,9 @@
+#+ endpoint: https://api.druid.datalegend.net/datasets/eericq/AHF-test/services/AHF-test/sparql
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT * WHERE {
+  <https://iisg.amsterdam/resource/ahf/0> ?pred ?obj .
+} 
+LIMIT 20
